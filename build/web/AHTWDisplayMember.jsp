@@ -16,17 +16,18 @@
         <link type="text/css" rel="stylesheet" href="/styles/styles.css"></link>
     </head>
     <body>
+        <= =>
         <jsp:include page="TWAHBanner.jsp" />
         <div class="ui container">
             <div class="ui segment">
                 <div class="ui one column left aligned grid">
                     <div class="column">
                         <h2>Here is the information you entered:</h2>
-                        <h4>Name: ${param.fullName}</h4>
-                        <h4>Email: ${param.email}</h4>
-                        <h4>Phone: ${param.phone}</h4>
-                        <h4>IT Program: ${param.program}</h4>
-                        <h4>Year Level: ${param.year}</h4>
+                        <h4>Name: ${user.fullName}</h4>
+                        <h4>Email: ${user.email}</h4>
+                        <h4>Phone: ${user.phone}</h4>
+                        <h4>IT Program: ${user.program}</h4>
+                        <h4>Year Level: ${user.year}</h4>
                         <p>To register another member, click on the back button in your browser of the return button shown below.</p>
                         <a class="ui orange button" href="AHTWRegister.jsp">Return</a>
                     </div>

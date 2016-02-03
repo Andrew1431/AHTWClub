@@ -21,7 +21,7 @@
             <div class='ui centered grid'>
                 <div class='six wide column'>
                     <div class='ui orange segment'>
-                        <form class='ui form' method='POST' action='AHTWRegister.jsp'>
+                        <form class='ui form' method='POST' action='AHTWRegister'>
                             <div class='field'>
                                 <label>Full Name</label>
                                 <input type='text' name='fullName' placeholder='Full Name' />
