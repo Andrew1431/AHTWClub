@@ -21,7 +21,7 @@
             <div class='ui centered grid'>
                 <div class='six wide column'>
                     <div class='ui orange segment'>
-                        <form class='ui form' method='POST' action='AHTWRegister'>
+                        <form class='ui form' method='GET' action='AHTWRegister'>
                             <div class='field'>
                                 <label>Full Name</label>
                                 <input type='text' name='fullName' placeholder='Full Name' />

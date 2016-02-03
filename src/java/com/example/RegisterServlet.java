@@ -30,6 +30,17 @@ public class RegisterServlet extends HttpServlet {
         User user = new User(fullName, email, phone, program, year);
         
         request.setAttribute("user", user);
-        
+        getServletContext()
+                .getRequestDispatcher("/AHTWDisplayMember.jsp")
+                .forward(request, response);
     }
+    
+    @Override
+    protected void doGet(HttpServletRequest request,
+            HttpServletResponse response)
+            throws ServletException, IOException {
+        doPost(request, response);
+    }    
+    
+    
 }

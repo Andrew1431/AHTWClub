@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author andrew
  */
 public class User implements Serializable {
-    private String firstName;
+    private String fullName;
     private String email;
     private String phone;
     private String program;
@@ -22,8 +22,8 @@ public class User implements Serializable {
         return email;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFullName() {
+        return fullName;
     }
 
     public String getPhone() {
@@ -42,8 +42,8 @@ public class User implements Serializable {
         this.email = email;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFullName(String firstName) {
+        this.fullName = firstName;
     }
 
     public void setPhone(String phone) {
@@ -61,7 +61,7 @@ public class User implements Serializable {
     
 
     public User(String firstName, String email, String phone, String program, String year) {
-        this.firstName = firstName;
+        this.fullName = firstName;
         this.email = email;
         this.phone = phone;
         this.program = program;
