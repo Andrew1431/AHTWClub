@@ -13,7 +13,7 @@
         <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
         <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css"></link>
-        <link type="text/css" rel="stylesheet" href="/styles/styles.css"></link>
+        <link type="text/css" rel="stylesheet" href="styles/styles.css"></link>
 
     </head>
     <body>
