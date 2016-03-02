@@ -31,5 +31,7 @@ public class RegisterServlet extends HttpServlet {
         
         request.setAttribute("user", user);
         
+        
+        
     }
 }
